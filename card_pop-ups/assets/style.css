@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000000;
+  background: rgb(241, 237, 237);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 1rem;
+  width: 460px;
+  height: 491px;
+  position: relative;
+  padding: 30px;
+  gap: 20px;
+}
+
+#bottom {
+  background: #ffffff;
+  color: rgb(211, 199, 199);
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  border-width: 0.5px;
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  border-color: rgb(211, 199, 199);
+}
+
+.info_1 {
+  width: 85%;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards_num {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.card {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(211, 199, 199);
+  padding: 10px;
+  border-width: 0.5px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.info_2 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.dissatisfied {
+  text-align: left;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+.satisfied {
+  text-align: right;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.agree_terms {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 5px;
+}
+
+.agree_input {
+  width: 25px;
+  height: 25px;
+}
+
+.linea {
+  width: 100%;
+  border-bottom: 2px solid rgb(211, 199, 199);
+  margin-top: 20px;
+}
+
+.button {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 199, 199);
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #ffffff;
+}
