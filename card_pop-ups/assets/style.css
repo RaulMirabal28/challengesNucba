@@ -16,7 +16,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 140px;
   padding: 50px;
 }
 
@@ -29,8 +29,9 @@ main {
   width: 460px;
   height: 491px;
   position: relative;
-  padding: 30px;
+  padding: 60px;
   gap: 20px;
+  box-shadow: 0px 40px 50px -14px rgba(21, 26, 65, 0.55);
 }
 
 #bottom {
@@ -51,7 +52,7 @@ main {
 }
 
 .info_1 {
-  width: 85%;
+  width: 100%;
   font-weight: 600;
   text-align: justify;
   font-size: 14px;
@@ -60,26 +61,39 @@ main {
 .card_info {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .cards_num {
   display: flex;
   width: 100%;
-  gap: 5px;
+  gap: 10px;
   font-weight: 600;
 }
 
 .card {
-  border-style: solid;
+  border: 0.5px solid rgb(211, 199, 199);
   border-radius: 5px;
-  border-color: rgb(211, 199, 199);
   padding: 10px;
   border-width: 0.5px;
-  width: 100px;
+  width: 20%;
   height: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 16px;
+  background: inherit;
+  cursor: pointer;
+  transition: all 0.4 ease-out;
+}
+
+.card:hover {
+  background: #ff0099;
+  box-shadow: 0px 10px 15px 0.3px rgba(21, 26, 65, 0.2);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.4s ease-in;
+  transform: scale(1.05);
 }
 
 .info_2 {
@@ -111,6 +125,7 @@ main {
 .agree_input {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .linea {
@@ -119,7 +134,7 @@ main {
   margin-top: 20px;
 }
 
-.button {
+.btn {
   width: 100%;
   border-radius: 5px;
   border: 1px solid rgb(211, 199, 199);
@@ -127,4 +142,14 @@ main {
   text-transform: uppercase;
   font-weight: 600;
   background: #ffffff;
+}
+
+.btn:hover {
+  background: #ff0099;
+  box-shadow: 0px 10px 15px 0.3px rgba(21, 26, 65, 0.2);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.4s ease-in;
+  transform: scale(1.05);
 }
